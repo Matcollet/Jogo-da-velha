@@ -56,7 +56,7 @@ function check() {
   }
 
   if (selected.filter((item) => item).length === 9) {
-    alert("Deu empate.")
+    alert("Deu velha...")
     init()
     return
   }
